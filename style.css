@@ -5,6 +5,26 @@
   vertical-align: middle;
   text-align: center;
 }
+.buttons-container span {
+  display: inline-block;
+}
+.main-btn {
+  border: 3px solid #333333;
+  border-radius: 5px;
+  width: 190px;
+}
+.main-btn:hover {
+  border: 3px solid #333333;
+  border-radius: 5px;
+  width: 190px;
+  cursor: pointer;
+  background-color: #333333;
+  color: #9dd4f2;
+}
+.main-btn h2 {
+  margin: 0;
+  padding: 10px;
+}
 .twitter-share-button{
   position: absolute;
   z-index: 99;
