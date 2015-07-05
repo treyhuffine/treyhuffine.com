@@ -1,8 +1,11 @@
+h1, h2, h3, h4, h5 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
 .center {
   text-align: center;
 }
 .title-container {
-  vertical-align: middle;
   text-align: center;
 }
 .buttons-container span {
@@ -30,4 +33,16 @@
   z-index: 99;
   right: 149px;
   top: 9px;
+}
+#section6 {
+  background-image: url(andy-PR.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.thanks {
+  color: white;
+  padding-top: 2vh;
+}
+#section6 .fp-tableCell{
+     vertical-align: top;
 }
