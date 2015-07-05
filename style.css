@@ -1,15 +1,30 @@
 h1, h2, h3, h4, h5 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .center {
   text-align: center;
 }
+.social-icons {
+  list-style: none;
+  display: inline-block;
+  margin-right: 2vw;
+  margin-top: 2vh;
+}
+.icon {
+  width: 30px;
+}
+.network {
+  display: inline-block;
+}
 .title-container {
-  text-align: center;
+}
+.skills, .name {
+  margin-top: 2vh;
 }
 .buttons-container span {
   display: inline-block;
+  margin-top: 4vh;
 }
 .main-btn {
   border: 3px solid #333333;
@@ -42,6 +57,12 @@ h1, h2, h3, h4, h5 {
 .thanks {
   color: white;
   padding-top: 2vh;
+}
+.title-container {
+  padding-top: 30vh;
+}
+#section0 .fp-tableCell{
+  vertical-align: top;
 }
 #section6 .fp-tableCell{
      vertical-align: top;
