@@ -1,15 +1,13 @@
-html, body {
-  background-color: black;
-}
-#main-container {
-  width: 100vw;
-  height: 100vh;
-  background-image: url('desk.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  color: white;
-  background-color: black;
-}
 .center {
   text-align: center;
+}
+.title-container {
+  vertical-align: middle;
+  text-align: center;
+}
+.twitter-share-button{
+  position: absolute;
+  z-index: 99;
+  right: 149px;
+  top: 9px;
 }
