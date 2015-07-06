@@ -5,6 +5,10 @@ h1, h2, h3, h4, h5 {
 .center {
   text-align: center;
 }
+.center-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
 .social-icons {
   list-style: none;
   display: inline-block;
@@ -88,6 +92,10 @@ h1, h2, h3, h4, h5 {
   left:0em;
   top:0em
 }
+.shadow {
+  position: absolute;
+  /*width: 100%;*/
+}
 .about-name {
   color: #3F97D6;
   font-size: 3.5em;
@@ -96,12 +104,43 @@ h1, h2, h3, h4, h5 {
   margin-top: 10px;
 }
 .my-picture-container {
-  margin-top: 10px;
+  margin-top: 4vh;
   border: 2px solid #4b4b4b;
   border-radius: 5px;
 }
 .my-picture {
   width: 100%;
+}
+.pr {
+  margin-top: 25vh;
+}
+@media screen and (max-width: 991px) {
+    .break-hide {
+        display: none !important;
+    }
+    .full-gif {
+      background-image: url("")
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+}
+@media screen and (min-width: 991px) {
+    .mini-gif {
+      background-image: url(img/andy-PR.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .break-show {
+      display: none !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .lg-break {
+        display: none !important;
+    }
+    .about-container {
+      margin-top: 4vh;
+    }
 }
 #section0 .fp-tableCell{
   vertical-align: top;
@@ -115,7 +154,7 @@ h1, h2, h3, h4, h5 {
      vertical-align: top;
 }
 #section6 {
-  background-image: url(img/andy-PR.gif);
+  /*background-image: url(img/andy-PR.gif);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
