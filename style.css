@@ -6,17 +6,18 @@ h1, h2, h3, h4, h5 {
   text-align: center;
 }
 .center-margin {
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .social-icons {
   list-style: none;
-  display: inline-block;
+  display: inline`;
   margin-right: 2vw;
   margin-top: 2vh;
 }
 .icon {
-  width: 30px;
+  width: 40px;
 }
 .network {
   display: inline-block;
@@ -92,9 +93,15 @@ h1, h2, h3, h4, h5 {
   left:0em;
   top:0em
 }
-.shadow {
-  position: absolute;
-  /*width: 100%;*/
+.big-social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.big-icon-container {
+  margin-top: 5vh;
+}
+.big-icon {
+  width: 70%;
 }
 .about-name {
   color: #3F97D6;
