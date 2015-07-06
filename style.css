@@ -112,7 +112,6 @@ h1, h2, h3, h4, h5 {
   font-size: 1.25em;
 }
 .my-picture-container {
-  margin-top: 4vh;
   border: 2px solid #4b4b4b;
   border-radius: 5px;
 }
@@ -123,32 +122,43 @@ h1, h2, h3, h4, h5 {
   margin-top: 25vh;
 }
 @media screen and (max-width: 991px) {
-    .break-hide {
-        display: none !important;
-    }
-    .full-gif {
-      background-image: url("")
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
+  .break-hide {
+      display: none !important;
+  }
+  .full-gif {
+    background-image: url("")
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .large-margin {
+    margin-top: 2.5vh;
+  }
 }
 @media screen and (min-width: 991px) {
-    .mini-gif {
-      background-image: url(img/andy-PR.gif);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    .break-show {
-      display: none !important;
-    }
+  .mini-gif {
+    background-image: url(img/andy-PR.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .break-show {
+    display: none !important;
+  }
+  .large-margin {
+    margin-top: 55px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .set-margin {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 1200px) {
-    .lg-break {
-        display: none !important;
-    }
-    .about-container {
-      margin-top: 4vh;
-    }
+  .lg-break {
+      display: none !important;
+  }
+  .about-container {
+    margin-top: 4vh;
+  }
 }
 #section0 .fp-tableCell{
   vertical-align: top;
