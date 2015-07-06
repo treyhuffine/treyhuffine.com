@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5 {
 }
 .social-icons {
   list-style: none;
-  display: inline`;
+  display: inline;
   margin-right: 2vw;
   margin-top: 2vh;
 }
@@ -25,6 +25,16 @@ h1, h2, h3, h4, h5 {
 }
 .network {
   display: inline-block;
+}
+.network-micro {
+  list-style: none;
+}
+.micro-icon {
+  width: 40px;
+}
+.micro-icon-container {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 .title-container {
 }
