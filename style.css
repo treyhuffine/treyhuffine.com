@@ -66,7 +66,47 @@ h1, h2, h3, h4, h5 {
 .title-container {
   padding-top: 30vh;
 }
+.flag-outer {
+  display: inline-block;
+  width: 15em;
+  height: 15em;
+}
+.flag-inner {
+  position: relative;
+  display: inline-block;
+  width: 15em;
+  height: 15em;
+}
+.flag-i {
+  position: absolute;
+  display:inline-block;
+  width:0;
+  height:0;
+  line-height:0;
+  border:6em solid #3F97D6;
+  border-bottom:6em solid transparent;
+  left:0em;
+  top:0em
+}
+.about-name {
+  color: #3F97D6;
+  font-size: 3.5em;
+}
+.about-text {
+  margin-top: 10px;
+}
+.my-picture-container {
+  margin-top: 10px;
+  border: 2px solid #4b4b4b;
+  border-radius: 5px;
+}
+.my-picture {
+  width: 100%;
+}
 #section0 .fp-tableCell{
+  vertical-align: top;
+}
+#section3 .fp-tableCell{
   vertical-align: top;
 }
 #section1 {
