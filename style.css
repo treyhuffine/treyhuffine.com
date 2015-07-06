@@ -143,9 +143,9 @@ h1, h2, h3, h4, h5 {
   height: 20px;
   width: 100vw;
   background-color: #3F97D6;
-  -webkit-box-shadow: 0px 7px 21px -5px rgba(63,151,214,1);
-  -moz-box-shadow: 0px 7px 21px -5px rgba(63,151,214,1);
-  box-shadow: 0px 7px 21px -5px rgba(63,151,214,1);
+  -webkit-box-shadow: 0px 1px 26px -5px rgba(63,151,214,1);
+  -moz-box-shadow: 0px 1px 26px -5px rgba(63,151,214,1);
+  box-shadow: 0px 1px 26px -5px rgba(63,151,214,1);
 }
 @media screen and (max-width: 991px) {
   .break-hide {
