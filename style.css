@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5 {
 }
 .icon {
   width: 40px;
+  opacity: .8;
+}
+.icon:hover {
+  opacity: 1;
 }
 .network {
   display: inline-block;
@@ -102,6 +106,10 @@ h1, h2, h3, h4, h5 {
 }
 .big-icon {
   width: 70%;
+  opacity: .8;
+}
+.big-icon:hover {
+  opacity: 1;
 }
 .about-name {
   color: #3F97D6;
