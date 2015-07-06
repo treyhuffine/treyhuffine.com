@@ -133,6 +133,9 @@ h1, h2, h3, h4, h5 {
   .large-margin {
     margin-top: 2.5vh;
   }
+  .center-small {
+    margin-left: 17vw;
+  }
 }
 @media screen and (min-width: 991px) {
   .mini-gif {
@@ -149,7 +152,7 @@ h1, h2, h3, h4, h5 {
 }
 @media screen and (max-width: 480px) {
   .set-margin {
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
   }
 }
 @media screen and (max-width: 1200px) {
