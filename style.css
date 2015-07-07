@@ -241,9 +241,14 @@ h1, h2, h3, h4, h5 {
   vertical-align: top;
 }
 #section3 .fp-tableCell{
-  vertical-align: top;
+  /*background-image: url(img/smoky_mountains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;*/
 }
 #section1 {
+  /*background-image: url(img/desk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;*/
 }
 #section6 .fp-tableCell{
      vertical-align: top;
