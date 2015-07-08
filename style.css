@@ -87,7 +87,7 @@ p { font-size: .75em; }
   border-radius: 5px;
   width: 190px;
   cursor: pointer;
-  background-color: #fce1c6;
+  background-color: rgb(218, 203, 185);
   color: #FF8200;
 }
 .main-btn h2 {
