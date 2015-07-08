@@ -1,14 +1,32 @@
 h1, h2, h3, h4, h5 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+p { font-size: .75em; }
+.row { margin-bottom: 0 !important;}
+#logo {
+  position: absolute;
+  left: 15px;
+  top: 2vh;
+  width: 50px;
 }
 .center {
   text-align: center;
 }
-.center-margin {
+/*.center-margin {
   display: block;
   margin-left: auto !important;
   margin-right: auto !important;
+}*/
+.section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 .social-icons {
   list-style: none;
@@ -33,7 +51,7 @@ h1, h2, h3, h4, h5 {
   width: 40px;
 }
 .micro-icon-container {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 10px;
 }
 .my-title, .name, .skill-desc {
@@ -99,20 +117,21 @@ h1, h2, h3, h4, h5 {
 .thanks {
   color: white;
   padding-top: 2vh;
+  font-size: 3rem;
 }
 .title-container {
   padding-top: 30vh;
 }
 .flag-outer {
   display: inline-block;
-  width: 15em;
-  height: 15em;
+  width: 168px;
+  height: 168px;
 }
 .flag-inner {
   position: relative;
   display: inline-block;
-  width: 15em;
-  height: 15em;
+  width: 168px;
+  height: 168px;
 }
 .flag-i {
   position: absolute;
@@ -130,7 +149,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 0;
 }
 .big-icon-container {
-  margin-top: 5vh;
+  /*margin-top: 5vh;*/
 }
 .big-icon {
   width: 70%;
@@ -145,11 +164,13 @@ h1, h2, h3, h4, h5 {
 }
 .about-text {
   margin-top: 10px;
-  font-size: 1.25em;
+  font-size: 1.1rem;
 }
 .my-picture-container {
   border: 2px solid #4b4b4b;
   border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 .my-picture {
   width: 100%;
@@ -204,9 +225,6 @@ h1, h2, h3, h4, h5 {
   .break-show {
     display: none !important;
   }
-  .large-margin {
-    margin-top: 55px;
-  }
 }
 @media screen and (min-height: 700px) {
   .bottom-blue {
@@ -232,6 +250,12 @@ h1, h2, h3, h4, h5 {
     margin-top: 4vh;
   }
 }
+@media screen and (min-width: 1200px) {
+  .large-margin {
+    margin-top: 180px;
+  }
+}
+
 #section0 {
   /*background-image: url(img/smoky_mountains.jpg);
   background-size: cover;
@@ -241,6 +265,7 @@ h1, h2, h3, h4, h5 {
   vertical-align: top;
 }
 #section3 .fp-tableCell{
+  vertical-align: top;
   /*background-image: url(img/smoky_mountains.jpg);
   background-size: cover;
   background-repeat: no-repeat;*/
@@ -251,7 +276,7 @@ h1, h2, h3, h4, h5 {
   background-repeat: no-repeat;*/
 }
 #section6 .fp-tableCell{
-     vertical-align: top;
+  vertical-align: top;
 }
 #section6 {
   /*background-image: url(img/andy-PR.gif);
