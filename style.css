@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
@@ -19,11 +19,6 @@ p { font-size: .75em; }
 .center {
   text-align: center;
 }
-/*.center-margin {
-  display: block;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}*/
 .section {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -62,6 +57,7 @@ p { font-size: .75em; }
 }
 .title-container {
   color: white;
+  letter-spacing: 2px;
 }
 .skills, .name {
   margin-top: 3vh;
