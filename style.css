@@ -277,6 +277,17 @@ p { font-size: .75em; }
   width: 30px;
   opacity: .8;
 }
+.slide-icon:hover {
+  opacity: 1;
+}
+.contact-form {
+  color: rgb(184, 184, 184);
+  margin-top: 30px;
+}
+.slider-form-container {
+  height: 100%;
+  background-color:rgb(51, 50, 51);
+}
 #section0 {
   /*background-image: url(img/smoky_mountains.jpg);
   background-size: cover;
