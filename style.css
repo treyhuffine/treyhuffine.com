@@ -57,7 +57,7 @@ p { font-size: .75em; }
 }
 .title-container {
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
 }
 .skills, .name {
   margin-top: 3vh;
@@ -251,7 +251,32 @@ p { font-size: .75em; }
     margin-top: 180px;
   }
 }
-
+.slider-img {
+  border-radius: 50%;
+  width: 150px;
+}
+.network-slide {
+  display: inline-block;
+  padding: 0 !important;
+}
+.network-slide a {
+  padding: 0;
+}
+.network-slide a:hover {
+  background-color: rgb(51, 50, 51);
+}
+.slide-icons {
+  list-style: none;
+  display: block;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top: 2vh;
+  width: 100%;
+}
+.slide-icon {
+  width: 30px;
+  opacity: .8;
+}
 #section0 {
   /*background-image: url(img/smoky_mountains.jpg);
   background-size: cover;

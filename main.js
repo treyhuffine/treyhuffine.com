@@ -11,5 +11,5 @@ $(document).ready(function() {
       sectionsColor : ['black', '#fff', '#656565', '#eea146']
     });
   }
-
+  $(".button-collapse").sideNav();
 });
