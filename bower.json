@@ -18,6 +18,7 @@
   "dependencies": {
     "angular": "~1.4.1",
     "fullpage.js": "~2.6.6",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "materialize": "~0.97.0"
   }
 }
