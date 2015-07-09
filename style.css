@@ -306,9 +306,10 @@ p { font-size: .75em; }
   line-height: 100vh;
 }
 .preloader-wrapper {
-  position: absolute;
-  top: 45vh;
-  left: 43vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 44vh;
 }
 #section0 {
   background-color: rgb(31, 30, 31);
