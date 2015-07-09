@@ -3,7 +3,10 @@ $(document).ready(function() {
   // do any 480 width stuff here, or simply do nothing
     $('#fullpage').fullpage({
       sectionsColor : ['black', '#e9e6e6', '#656565', '#eea146'],
-      autoScrolling: false
+      autoScrolling: false,
+      anchors:['Welcome', 'About', 'Portfolio', 'Thanks'],
+      slidesNavigation: true,
+      slidesNavPosition: 'bottom',
     });
   } else {
   // do all your cool stuff here for larger screens
