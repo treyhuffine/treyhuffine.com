@@ -20,5 +20,7 @@ $(document).ready(function() {
       loopBottom: true
     });
   }
-  $(".button-collapse").sideNav();
+  $(".button-collapse").sideNav({
+    menuWidth: 300
+  });
 });
