@@ -1,6 +1,4 @@
 $(document).ready(function() {
-  $("#main-container").fadeIn(1000);
-  $("#load-spinner").hide();
   if(screen.width < 480) {
   // do any 480 width stuff here, or simply do nothing
     $('#fullpage').fullpage({
@@ -30,6 +28,6 @@ $(document).ready(function() {
 });
 
 $(window).load(function() {
-  // $("#main-container").fadeIn(1000);
-  // $("#load-spinner").hide();
+  $("#load-spinner").hide();
+  $("#main-container").fadeIn(1000);
 });
