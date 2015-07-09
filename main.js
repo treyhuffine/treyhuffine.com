@@ -1,6 +1,6 @@
 $(window).load(function() {
   $("#load-spinner").hide();
-  $("#main-container").fadeIn(3000);
+  $("#main-container").fadeIn(1500);
   if(screen.width < 480) {
   // do any 480 width stuff here, or simply do nothing
     $('#fullpage').fullpage({
