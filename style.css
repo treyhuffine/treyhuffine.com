@@ -288,6 +288,10 @@ p { font-size: .75em; }
   height: 100%;
   background-color:rgb(51, 50, 51);
 }
+#fp-nav ul li a span{
+  background: rgb(237, 237, 237);
+  border: 2px solid rgb(159, 155, 155)
+}
 #section0 {
   /*background-image: url(img/smoky_mountains.jpg);
   background-size: cover;
