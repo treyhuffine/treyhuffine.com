@@ -311,9 +311,7 @@ p { font-size: .75em; }
   left: 43vw;
 }
 #section0 {
-  /*background-image: url(img/smoky_mountains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;*/
+  background-color: rgb(31, 30, 31);
 }
 #section0 .fp-tableCell{
   vertical-align: top;
