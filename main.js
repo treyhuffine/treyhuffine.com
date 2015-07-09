@@ -1,5 +1,5 @@
 $(window).load(function() {
-  $("#main-container").fadeIn(1000);
+  $("#main-container").fadeIn(2000);
   $("#load-spinner").hide();
   if(screen.width < 480) {
   // do any 480 width stuff here, or simply do nothing
