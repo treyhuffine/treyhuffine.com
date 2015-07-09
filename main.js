@@ -13,7 +13,6 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
       sectionsColor : ['black', '#e9e6e6', '#656565', '#eea146'],
       menu: false,
-      lockAnchors: false,
       anchors:['Welcome', 'About', 'Portfolio', 'Thanks'],
       navigation: true,
       navigationPosition: 'right',
