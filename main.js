@@ -26,3 +26,8 @@ $(document).ready(function() {
     menuWidth: 300
   });
 });
+
+$(window).load(function() {
+  $("#main-container").fadeIn(1000);
+  $("#load-spinner").hide();
+});

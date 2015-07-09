@@ -1,3 +1,6 @@
+#main-container {
+  display: none;
+}
 h1, h2, h3, h4, h5 {
   margin-top: 0;
   margin-bottom: 0;
@@ -292,6 +295,17 @@ p { font-size: .75em; }
 #fp-nav ul li a span{
   background: rgb(237, 237, 237);
   border: 2px solid rgb(159, 155, 155)
+}
+#load-spinner {
+  background-color: rgb(31, 30, 31);
+  width: 100vw;
+  height: 100vh;
+  line-height: 100vh;
+}
+.preloader-wrapper {
+  position: absolute;
+  top: 45vh;
+  left: 43vw;
 }
 #section0 {
   /*background-image: url(img/smoky_mountains.jpg);
