@@ -27,7 +27,6 @@ $(window).load(function() {
   $(".button-collapse").sideNav({
     menuWidth: 300
   });
-
   // Email - don't hack my auth keys doe
   jQuery(function($)
   {
@@ -60,7 +59,7 @@ $(window).load(function() {
               }
           })
           .done(function(response) {
-              alert('Your message has been sent. Thank you!'); // show success message
+              alert('Message Sent!');
               $(".email-form").val('');
               $(".name-form").val('');
               $(".msg-form").val('');
