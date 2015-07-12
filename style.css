@@ -3,6 +3,7 @@
 }
 html, body {
   background-color: rgb(31, 30, 31);
+  font-weight: 300 !important;
 }
 h1, h2, h3, h4, h5 {
   margin-top: 0;
@@ -58,6 +59,7 @@ p { font-size: .75em; }
 }
 .my-title, .name, .skill-desc {
   color: rgb(224, 224, 222);
+  font-weight: 300;
 }
 .my-title {
   font-size: 3em;
@@ -121,6 +123,7 @@ p { font-size: .75em; }
   color: white;
   padding-top: 2vh;
   font-size: 3rem;
+  font-weight: 300;
 }
 .title-container {
   padding-top: 30vh;
@@ -164,6 +167,7 @@ p { font-size: .75em; }
 .about-name {
   color: #3F97D6;
   font-size: 3.5em;
+  font-weight: 300;
 }
 .about-text {
   margin-top: 10px;
