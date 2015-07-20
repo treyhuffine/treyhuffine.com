@@ -4,6 +4,7 @@
 html, body {
   background-color: rgb(31, 30, 31);
   font-weight: 300 !important;
+  /*font-family: 'Abel';*/
 }
 h1, h2, h3, h4, h5 {
   margin-top: 0;
@@ -321,22 +322,21 @@ p { font-size: .75em; }
 #section0 .fp-tableCell{
   vertical-align: top;
 }
+#section1 .fp-tableCell{
+  vertical-align: top;
+}
+#section1 {
+  color: rgb(77, 88, 98);
+  font-family: 'Orbitron';
+}
+#section1 h1 {
+  padding-top: 4%;
+}
 #section3 .fp-tableCell{
   vertical-align: top;
-  /*background-image: url(img/smoky_mountains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;*/
 }
-#section1 .fp-tableCell{
-  /*vertical-align: top;*/
-}
-#section6 .fp-tableCell{
+#section4 .fp-tableCell{
   vertical-align: top;
-}
-#section6 {
-  /*background-image: url(img/andy-PR.gif);
-  background-size: cover;
-  background-repeat: no-repeat;*/
 }
 .fp-controlArrow.fp-next {
   background-image: url(Icons/chevron-right.png);
@@ -355,4 +355,8 @@ p { font-size: .75em; }
 .fp-controlArrow {
   top: 10%;
   border-style: none;
+}
+.portfolio-header {
+  /*font-family: 'Orbitron';
+  margin-top: 7.5%;*/
 }
