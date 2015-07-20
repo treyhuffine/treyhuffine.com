@@ -399,3 +399,22 @@ p { font-size: .75em; }
   border-bottom: 1px solid #e0e0e0;
   color: #53B6AC;
 }
+.port-item-header {
+  padding-top: 3%;
+}
+.port-item-title {
+  font-size: 3rem;
+}
+.port-logo {
+  width: 40px;
+  opacity: .7;
+}
+.port-logo:hover {
+  opacity: 1;
+}
+.features-list li {
+  list-style-type: circle;
+}
+.features-list {
+  padding-left: 4%;
+}
