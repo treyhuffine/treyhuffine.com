@@ -339,15 +339,20 @@ p { font-size: .75em; }
   background-repeat: no-repeat;*/
 }
 .fp-controlArrow.fp-next {
-  height: 20px;
-  width: 20px;
+  background-image: url(Icons/chevron-right.png);
+  background-size: 35px 65px;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 65px;
 }
 .fp-controlArrow.fp-prev {
-  height: 20px;
-  width: 20px;
+  background-image: url(Icons/chevron-left.png);
+  background-size: 35px 65px;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 65px;
 }
 .fp-controlArrow {
-  height: 20px;
-  width: 20px;
   top: 10%;
+  border-style: none;
 }
