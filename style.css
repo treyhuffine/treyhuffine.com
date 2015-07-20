@@ -332,10 +332,14 @@ p { font-size: .75em; }
 #section1 h1 {
   padding-top: 4%;
 }
-#section3 .fp-tableCell{
+#section2 .fp-tableCell {
+  padding: 0 !important;
   vertical-align: top;
 }
-#section4 .fp-tableCell{
+#section3 .fp-tableCell {
+  vertical-align: top;
+}
+#section4 .fp-tableCell {
   vertical-align: top;
 }
 .fp-controlArrow.fp-next {

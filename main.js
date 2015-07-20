@@ -4,21 +4,21 @@ $(window).load(function() {
   if(screen.width < 480) {
   // do any 480 width stuff here, or simply do nothing
     $('#fullpage').fullpage({
-      sectionsColor : ['black', '#e9e6e6', '#e9e6e6', '#eea146'],
+      sectionsColor : ['black', '#e9e6e6', '#faf6f6', '#eea146'],
       autoScrolling: false,
-      anchors:['Welcome', 'About', 'Portfolio', 'Thanks'],
+      anchors: ['Welcome', 'Portfolio', 'About', 'Thanks'],
       slidesNavigation: true,
       slidesNavPosition: 'bottom',
     });
   } else {
   // do all your cool stuff here for larger screens
     $('#fullpage').fullpage({
-      sectionsColor : ['black', '#e9e6e6', '#e9e6e6', '#eea146'],
+      sectionsColor : ['black', '#e9e6e6', '#faf6f6', '#eea146'],
       menu: false,
-      anchors:['Welcome', 'About', 'Portfolio', 'Thanks'],
+      anchors:['Welcome', 'Portfolio', 'About', 'Thanks'],
       navigation: true,
       navigationPosition: 'right',
-      navigationTooltips: ['Welcome', 'About', 'Portfolio', 'Thanks'],
+      navigationTooltips: ['Welcome', 'Portfolio', 'About', 'Thanks'],
       slidesNavigation: true,
       slidesNavPosition: 'bottom',
       loopBottom: true
