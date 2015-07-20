@@ -7,7 +7,6 @@
 html, body {
   background-color: rgb(31, 30, 31);
   font-weight: 300 !important;
-  font-family: 'Abel';
 }
 h1, h2, h3, h4, h5 {
   margin-top: 0;
@@ -71,6 +70,7 @@ p { font-size: .75em; }
 .title-container {
   color: white;
   letter-spacing: 2.5px;
+  font-family: 'Abel';
 }
 .skills, .name {
   margin-top: 3vh;
