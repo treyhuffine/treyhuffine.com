@@ -4,7 +4,7 @@
 html, body {
   background-color: rgb(31, 30, 31);
   font-weight: 300 !important;
-  /*font-family: 'Abel';*/
+  font-family: 'Abel';
 }
 h1, h2, h3, h4, h5 {
   margin-top: 0;
@@ -363,4 +363,39 @@ p { font-size: .75em; }
 .portfolio-header {
   /*font-family: 'Orbitron';
   margin-top: 7.5%;*/
+}
+.profile-wrapper {
+  margin-top: 2%;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-panel {
+  border: 1px solid rgb(77, 88, 98);
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hvr-grow:active,.hvr-grow:focus,.hvr-grow:hover {
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+  z-index:10
+}
+.responsive-row-fix {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.collection-item {
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+.portfolio-anchor {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  color: #53B6AC;
 }
