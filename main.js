@@ -7,8 +7,7 @@ $(window).load(function() {
       sectionsColor : ['black', '#e9e6e6', '#faf6f6', '#eea146'],
       autoScrolling: false,
       anchors: ['Welcome', 'Portfolio', 'About', 'Thanks'],
-      slidesNavigation: true,
-      slidesNavPosition: 'bottom',
+      scrollOverflow: true
     });
   } else {
   // do all your cool stuff here for larger screens

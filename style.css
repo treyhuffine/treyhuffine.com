@@ -435,3 +435,6 @@ p { font-size: .75em; }
 .portfolio-picture-wrapper {
   margin-top: 2%;
 }
+.badges {
+  padding-bottom: 10px;
+}
