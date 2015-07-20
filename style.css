@@ -429,3 +429,9 @@ p { font-size: .75em; }
 .picture-container {
   width: 100%;
 }
+.portfolio-picture {
+  margin: 5px;
+}
+.portfolio-picture-wrapper {
+  margin-top: 2%;
+}
