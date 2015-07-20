@@ -14,6 +14,8 @@
     <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <link rel="icon" href="img/th-icon-black.png">
@@ -178,11 +180,11 @@
                 <!-- <div class="col m8 l8 s12"> -->
                 <span class="col-md-4 col-lg-4 col-sm-12 col-xs-12 portfolio-picture-wrapper">
                   <div class="picture-container">
-                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
-                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
-                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
-                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
-                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
+                    <a class="fancybox" rel="group" href="img/textswapr/TextSwapr_splash.png" title="TextSwapr splash page"><img src="img/textswapr/TextSwapr_splash.png" alt="textswapr-splash" class="portfolio-picture" width="150"></a>
+                    <a class="fancybox" rel="group" href="img/textswapr/TextSwapr_dash.png" title="TextSwapr student dashboard"><img src="img/textswapr/TextSwapr_dash.png" alt="textswapr-dash" class="portfolio-picture" width="150"></a>
+                    <a class="fancybox" rel="group" href="img/textswapr/TextSwapr_pretrade.png" title="TextSwapr tradine page (pre-trade)"><img src="img/textswapr/TextSwapr_pretrade.png" alt="textswapr-pretrade" class="portfolio-picture" width="150"></a>
+                    <a class="fancybox" rel="group" href="img/textswapr/TextSwapr_posttrade.png" title="TextSwapr tradine page (post-trade)"><img src="img/textswapr/TextSwapr_posttrade.png" alt="textswapr-posttrade" class="portfolio-picture" width="150"></a>
+                    <a class="fancybox" rel="group" href="img/textswapr/TextSwapr_browse_page.png" title="TextSwapr browse book page"><img src="img/textswapr/TextSwapr_browse_page.png" alt="textswapr-browse" class="portfolio-picture" width="150"></a>
                   </div>
                 </span>
                 <span class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
@@ -215,8 +217,55 @@
               </div>
             </div>
           </div>
+          <div class="slide">
+            <div class="port-item-header center">
+              <span<h1 class="textswapr-header port-item-title">lyve</h1></span>
+              <span><a href="http://lyve.network"><img src="img/www.png" alt="website" class="port-logo"></a></span>
+              <span><a href="https://github.com/treyhuffine/lyve"><img src="img/web-development.svg" alt="github" class="port-logo"></a></span>
+            </div>
+            <div class="container">
+              <div class="row">
+                <!-- <div class="col m8 l8 s12"> -->
+                <span class="col-md-4 col-lg-4 col-sm-12 col-xs-12 portfolio-picture-wrapper">
+                  <div class="picture-container">
+                    <img src="http://placehold.it/150x100" alt="img" class="materialboxed" width="150" data-caption="A picture of some deer and tons of trees">
+                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
+                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
+                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
+                    <img src="http://placehold.it/150x100" alt="img" class="portfolio-picture pull-right">
+                  </div>
+                </span>
+                <span class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                  <div class="port-item-description">
+                    <h1>Description:</h1>
+                    <h4>
+                      Lyve is lightweight and organized way to stay up to date with information, news, and social in real-time. With the world at your finger tips, know what's happening while it's happening. Lyve's secret sauce is utilizing channels to organize  user's content much like tuning your television into the news or sports.
+                    </h4>
+                  </div>
+                </span>
+                <!-- <div class="col m4 l4 s12"> -->
+                <span class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                <!-- <div class="col m8 l8 s12"> -->
+                  <h1>Why lyve is important to me:</h1>
+                  <ul class="features-list">
+                    <li>My first full stack application</li>
+                    <li>Completely self-taught</li>
+                    <li>Implemented complex database relations</li>
+                    <li>Created before Twitter started promoting categorized Tweets</li>
+                  </ul>
+                </span>
+                <span class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                <!-- <div class="col m8 l8 s12"> -->
+                  <h1>Tech Utilized:</h1>
+                  <img src="https://img.shields.io/badge/Ruby on Rails-4.2.0-red.svg" alt="Angular">
+                  <img src="https://img.shields.io/badge/Devise-3.4.1-blue.svg" alt="Express">
+                  <img src="https://img.shields.io/badge/OAuth-2.0.0-green.svg" alt="Node">
+                  <img src="https://img.shields.io/badge/AWS SDK-1.61.0-orange.svg" alt="MongoDB">
+                </span>
+              </div>
+            </div>
+          </div>
           <!-- <div class="slide"><h1 class="center hashtrackus-header">Hashtrack.us</h1></div> -->
-          <div class="slide"><h1 class="center lyve-header">lyve</h1></div>
           <div class="slide"><h1 class="center clock-header">Countdown Clock</h1></div>
           <div class="slide"><h1 class="center toyapps-header">Miniature Apps</h1></div>
           <div class="slide"><h1 class="center academic-header">Academic Projects</h1></div>

@@ -24,6 +24,7 @@ $(window).load(function() {
       loopBottom: true
     });
   }
+  $(".fancybox").fancybox();
   $(".button-collapse").sideNav({
     menuWidth: 300
   });

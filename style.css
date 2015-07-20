@@ -309,8 +309,6 @@ p { font-size: .75em; }
 }
 #load-spinner {
   background-color: rgb(31, 30, 31);
-  width: 100vw;
-  height: 100vh;
   line-height: 100vh;
 }
 .preloader-wrapper {
@@ -431,6 +429,8 @@ p { font-size: .75em; }
 }
 .portfolio-picture {
   margin: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 .portfolio-picture-wrapper {
   margin-top: 2%;
