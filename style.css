@@ -327,10 +327,8 @@ p { font-size: .75em; }
   background-size: cover;
   background-repeat: no-repeat;*/
 }
-#section1 {
-  /*background-image: url(img/desk.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;*/
+#section1 .fp-tableCell{
+  /*vertical-align: top;*/
 }
 #section6 .fp-tableCell{
   vertical-align: top;
@@ -339,4 +337,17 @@ p { font-size: .75em; }
   /*background-image: url(img/andy-PR.gif);
   background-size: cover;
   background-repeat: no-repeat;*/
+}
+.fp-controlArrow.fp-next {
+  height: 20px;
+  width: 20px;
+}
+.fp-controlArrow.fp-prev {
+  height: 20px;
+  width: 20px;
+}
+.fp-controlArrow {
+  height: 20px;
+  width: 20px;
+  top: 10%;
 }
