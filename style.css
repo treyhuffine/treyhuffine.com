@@ -417,6 +417,7 @@ p { font-size: .75em; }
 }
 .features-list {
   padding-left: 4%;
+  margin-top: 1%;
 }
 /*.picture-container, .portfolio-picture {
   margin-left: auto;
@@ -437,8 +438,18 @@ p { font-size: .75em; }
 .badges {
   padding-bottom: 10px;
 }
+.badges h1 {
+  padding-bottom: 10px;
+}
+.feature-wrapper {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 .port-buttons {
   display: inline-block;
   vertical-align: top;
   margin-left: 1%;
+}
+.port-item-description h1 {
+  margin-bottom: 1%;
 }
