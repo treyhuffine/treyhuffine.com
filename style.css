@@ -330,9 +330,6 @@ p { font-size: .75em; }
   color: rgb(77, 88, 98);
   font-family: 'Orbitron';
 }
-#section1 h1 {
-  padding-top: 4%;
-}
 #section2 .fp-tableCell {
   padding: 0 !important;
   vertical-align: top;
@@ -362,8 +359,8 @@ p { font-size: .75em; }
   border-style: none;
 }
 .portfolio-header {
-  /*font-family: 'Orbitron';
-  margin-top: 7.5%;*/
+  padding-top: 3%;
+  font-size: 2.5rem;
 }
 .profile-wrapper {
   margin-top: 2%;
@@ -402,9 +399,11 @@ p { font-size: .75em; }
 }
 .port-item-header {
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 .port-item-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  display: inline-block;
 }
 .port-logo {
   width: 40px;
@@ -433,8 +432,13 @@ p { font-size: .75em; }
   border-radius: 5px;
 }
 .portfolio-picture-wrapper {
-  margin-top: 2%;
+  /*margin-top: 2%;*/
 }
 .badges {
   padding-bottom: 10px;
+}
+.port-buttons {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1%;
 }
