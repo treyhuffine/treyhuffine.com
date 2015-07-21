@@ -402,7 +402,7 @@ p { font-size: .75em; }
   padding-bottom: 3%;
 }
 .port-item-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   display: inline-block;
 }
 .port-logo {
@@ -445,11 +445,19 @@ p { font-size: .75em; }
   margin-top: 3%;
   margin-bottom: 3%;
 }
+.feature-wrapper h1 {
+  font-size: 2.5rem;
+}
 .port-buttons {
   display: inline-block;
   vertical-align: top;
   margin-left: 1%;
+  margin-top: 5px;
 }
 .port-item-description h1 {
   margin-bottom: 1%;
+  font-size: 2.5rem;
+}
+.slide {
+  font-family: 'Abel';
 }
