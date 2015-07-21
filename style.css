@@ -479,3 +479,11 @@ p { font-size: .75em; }
 .collection-item p {
   font-size: .9rem;
 }
+.card-reveal p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.crop {
+  width: auto !important;
+  height: 200px !important;
+}
