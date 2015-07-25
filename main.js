@@ -60,9 +60,7 @@ $(window).load(function() {
           })
           .done(function(response) {
               alert('Message Sent!');
-              $(".email-form").val('');
-              $(".name-form").val('');
-              $(".msg-form").val('');
+              $("#contact_form")[0].reset();
           })
           .fail(function(response) {
               alert('Error sending message.');
