@@ -69,7 +69,7 @@ p { font-size: .75em; }
 }
 .grubmarket-link {
   color: #30AB63;
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
   text-decoration: none;
 }
 .grubmarket-link:hover {
