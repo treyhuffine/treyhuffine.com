@@ -496,3 +496,13 @@ p { font-size: .75em; }
   width: auto !important;
   height: 200px !important;
 }
+.email {
+  text-decoration: none;
+  color: #FF8200;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+.email:hover {
+  text-decoration: none;
+  color: rgba(255, 130, 0, 0.83);
+}
