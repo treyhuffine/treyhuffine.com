@@ -60,7 +60,7 @@ p { font-size: .75em; }
   margin-top: 15px;
   margin-right: 10px;
 }
-.my-title, .name, .skill-desc {
+.my-title, .name, .skill-desc, .tagline-desc {
   color: rgb(224, 224, 222);
   font-weight: 300;
 }
@@ -81,7 +81,7 @@ p { font-size: .75em; }
   letter-spacing: 2.5px;
   font-family: 'Abel', 'Helvetica';
 }
-.skills, .name {
+.skills, .name, .tagline {
   margin-top: 3vh;
 }
 .name, .skill-desc {
@@ -89,6 +89,20 @@ p { font-size: .75em; }
 }
 .skill-desc {
   font-size: 2em;
+}
+.tagline-desc {
+  font-size: 1.5em;
+}
+.tagline {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+@media(max-width: 600px) {
+  .tagline {
+    width: 90%;
+  }
 }
 #contact-button, #portfolio-button {
   margin-left: 5px;
