@@ -4,7 +4,6 @@ import { SectionTitle, Paragraph } from '../../styles/components'
 import { EducationItem, Institution, Degree } from './styles'
 
 const Education = ({ user }) => {
-  console.log('-- ', user.education)
   return (
     <div>
       <div>
