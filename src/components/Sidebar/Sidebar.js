@@ -2,10 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Location } from '@reach/router'
 import {
-  SideNav,
   SideNavItems,
   SideNavLink,
 } from 'carbon-components-react/lib/components/UIShell'
+
+import { StyledSideNav } from './styles'
 
 const items = [
   { name: 'Me', path: '/' },
@@ -16,9 +17,9 @@ const items = [
 
 const Sidebar = () => {
   return (
-    <SideNav
+    <StyledSideNav
       isFixedNav
-      expanded={true}
+      expanded
       isChildOfHeader={false}
       aria-label="Side navigation"
     >
@@ -46,7 +47,7 @@ const Sidebar = () => {
           }}
         </Location>
       </SideNavItems>
-    </SideNav>
+    </StyledSideNav>
   )
 }
 
