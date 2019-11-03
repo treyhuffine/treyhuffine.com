@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    title: '',
     description: `Trey Huffine - Building gitconnected.com and helping people grow their careers as software engineers.`,
     author: `@treyhuffine`,
   },
