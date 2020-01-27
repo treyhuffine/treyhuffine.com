@@ -5,8 +5,9 @@ import {
   SideNavItems,
   SideNavLink,
 } from 'carbon-components-react/lib/components/UIShell'
+import { ArrowRight16 } from '@carbon/icons-react'
 
-import { StyledSideNav } from './styles'
+import { StyledSideNav, ViewResumeButton } from './styles'
 
 const items = [
   { name: 'Me', path: '/' },
@@ -46,6 +47,12 @@ const Sidebar = () => {
             )
           }}
         </Location>
+        <div>
+          <ViewResumeButton href="https://gitconnected.com/treyhuffine/resume">
+            <span>View Résumé</span>
+            <ArrowRight16 />
+          </ViewResumeButton>
+        </div>
       </SideNavItems>
     </StyledSideNav>
   )

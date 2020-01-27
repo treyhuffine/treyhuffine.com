@@ -6,3 +6,19 @@ export const StyledSideNav = styled(SideNav)`
     display: none;
   }
 `
+
+export const ViewResumeButton = styled.a`
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin: 1rem 1rem;
+  padding: 0.75rem;
+  border: 2px solid #2ecc40;
+  font-weight: bold;
+  align-items: center;
+  background-color: rgba(46, 204, 64, 0.3);
+
+  svg {
+    fill: white;
+  }
+`

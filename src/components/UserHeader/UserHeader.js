@@ -4,19 +4,19 @@ import { Location } from '@reach/router'
 
 import { HeaderContainer, Header, Image } from './styles'
 
-const Me = () => {
+const UserHeader = () => {
   const { user } = useStaticQuery(
     graphql`
       query {
         user {
           basics {
             name
+            username
             picture
-            location
+            region
             label
             headline
             blog
-            usernameCaseSensitive
             yearsOfExperience
           }
         }
@@ -34,15 +34,15 @@ const Me = () => {
               <h2>{user.basics.name}</h2>
               <h4>
                 <a
-                  href={`https://gitconnected.com/${user.basics.usernameCaseSensitive}`}
+                  href={`https://gitconnected.com/${user.basics.username}`}
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  @{user.basics.usernameCaseSensitive}
+                  @{user.basics.username}
                 </a>
               </h4>
               <p>{user.basics.label}</p>
-              <p>Coding in {user.basics.location}</p>
+              <p>Coding in {user.basics.region}</p>
               <p>
                 {user.basics.yearsOfExperience} years of experience as a
                 developer
@@ -66,4 +66,4 @@ const Me = () => {
   )
 }
 
-export default Me
+export default UserHeader

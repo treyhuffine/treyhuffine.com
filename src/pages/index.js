@@ -21,21 +21,19 @@ export const query = graphql`
     user {
       basics {
         id
+        username
         blog
-        email
         followers
         following
         headline
         id
         karma
         label
-        location
+        region
         name
-        phone
         picture
         username
         summary
-        usernameCaseSensitive
         website
         yearsOfExperience
         profiles {

@@ -3,7 +3,7 @@ const fetch = require('isomorphic-unfetch')
 
 const username = process.env.USERNAME
 
-if (username === 'test') {
+if (username === 'test' || !username) {
   throw new Error('Update the .env file to set USERNAME=yourusername')
 }
 
@@ -14,7 +14,7 @@ exports.sourceNodes = async ({
 }) => {
   const { createNode } = actions
 
-  const res = await fetch(`https://gitconnected.com/v1/api/resume/${username}`)
+  const res = await fetch(`https://gitconnected.com/v1/portfolio/${username}`)
   const user = await res.json()
   const nodeContent = JSON.stringify(user)
 
