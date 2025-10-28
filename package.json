@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-starter-default",
+  "private": false,
+  "description": "Personal website for @treyhuffine",
+  "version": "0.1.0",
+  "author": "Trey Huffine",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "deploy": "gh-pages -d . -m 'Deploy site'",
+    "build:deploy": "yarn build && gh-pages -d public",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
