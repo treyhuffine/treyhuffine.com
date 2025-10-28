@@ -1,190 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trey Huffine</title>
-    <link rel="icon" type="image/png" href="src/images/th-icon-black.png">
+    <link rel="icon" type="image/png" href="img/th-icon-black.png" />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        ::selection {
-            background-color: #FF8200;
-            color: #ffffff;
-        }
+      ::selection {
+        background-color: #ff8200;
+        color: #ffffff;
+      }
 
-        ::-moz-selection {
-            background-color: #FF8200;
-            color: #ffffff;
-        }
+      ::-moz-selection {
+        background-color: #ff8200;
+        color: #ffffff;
+      }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-            background-color: #0f0f0f;
-            color: #e0e0e0;
-            line-height: 1.6;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 2rem;
-            animation: fadeIn 0.8s ease-in;
-        }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+          'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+        background-color: #0f0f0f;
+        color: #e0e0e0;
+        line-height: 1.6;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        animation: fadeIn 0.8s ease-in;
+      }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
         }
-
-        .container {
-            max-width: 600px;
-            width: 100%;
+        to {
+          opacity: 1;
+          transform: translateY(0);
         }
+      }
 
+      .container {
+        max-width: 600px;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        color: #ffffff;
+        letter-spacing: -0.02em;
+      }
+
+      .section {
+        margin-bottom: 3rem;
+      }
+
+      .section-title {
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #888;
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+
+      .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+      }
+
+      .social-links a {
+        color: #e0e0e0;
+        text-decoration: none;
+        font-size: 1rem;
+        position: relative;
+        transition: color 0.3s ease;
+      }
+
+      .social-links a::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: #ff8200;
+        transition: width 0.3s ease;
+      }
+
+      .social-links a:hover {
+        color: #ff8200;
+      }
+
+      .social-links a:hover::after {
+        width: 100%;
+      }
+
+      .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .projects a {
+        color: #e0e0e0;
+        text-decoration: none;
+        font-size: 1.125rem;
+        position: relative;
+        display: inline-block;
+        padding: 0.25rem 0;
+        transition: all 0.3s ease;
+      }
+
+      .projects a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: linear-gradient(90deg, #ff8200, #ff6b35);
+        transition: width 0.4s ease;
+      }
+
+      .projects a:hover {
+        color: #ffffff;
+        transform: translateX(4px);
+      }
+
+      .projects a:hover::after {
+        width: 100%;
+      }
+
+      @media (max-width: 640px) {
         h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 2rem;
-            color: #ffffff;
-            letter-spacing: -0.02em;
-        }
-
-        .section {
-            margin-bottom: 3rem;
-        }
-
-        .section-title {
-            font-size: 0.875rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #888;
-            margin-bottom: 1rem;
-            font-weight: 500;
+          font-size: 2.25rem;
         }
 
         .social-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
+          flex-direction: column;
+          gap: 1rem;
         }
 
-        .social-links a {
-            color: #e0e0e0;
-            text-decoration: none;
-            font-size: 1rem;
-            position: relative;
-            transition: color 0.3s ease;
+        body {
+          padding: 1.5rem;
         }
-
-        .social-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            width: 0;
-            height: 1px;
-            background-color: #FF8200;
-            transition: width 0.3s ease;
-        }
-
-        .social-links a:hover {
-            color: #FF8200;
-        }
-
-        .social-links a:hover::after {
-            width: 100%;
-        }
-
-        .projects {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-
-        .projects a {
-            color: #e0e0e0;
-            text-decoration: none;
-            font-size: 1.125rem;
-            position: relative;
-            display: inline-block;
-            padding: 0.25rem 0;
-            transition: all 0.3s ease;
-        }
-
-        .projects a::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: linear-gradient(90deg, #FF8200, #FF6B35);
-            transition: width 0.4s ease;
-        }
-
-        .projects a:hover {
-            color: #ffffff;
-            transform: translateX(4px);
-        }
-
-        .projects a:hover::after {
-            width: 100%;
-        }
-
-        @media (max-width: 640px) {
-            h1 {
-                font-size: 2.25rem;
-            }
-
-            .social-links {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            body {
-                padding: 1.5rem;
-            }
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Trey Huffine</h1>
+      <h1>Trey Huffine</h1>
 
-        <div class="section">
-            <div class="section-title">Connect</div>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/treyhuffine/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://x.com/treyhuffine" target="_blank" rel="noopener noreferrer">X</a>
-                <a href="https://www.youtube.com/channel/UC3v9kBR_ab4UHXXdknz8Fbg" target="_blank" rel="noopener noreferrer">YouTube</a>
-                <a href="https://github.com/treyhuffine" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://gitconnected.com/treyhuffine" target="_blank" rel="noopener noreferrer">gitconnected</a>
-            </div>
+      <div class="section">
+        <div class="section-title">Connect</div>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/treyhuffine/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a
+            href="https://x.com/treyhuffine"
+            target="_blank"
+            rel="noopener noreferrer"
+            >X</a
+          >
+          <a
+            href="https://www.youtube.com/channel/UC3v9kBR_ab4UHXXdknz8Fbg"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >
+          <a
+            href="https://github.com/treyhuffine"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://gitconnected.com/treyhuffine"
+            target="_blank"
+            rel="noopener noreferrer"
+            >gitconnected</a
+          >
         </div>
+      </div>
 
-        <div class="section">
-            <div class="section-title">Projects</div>
-            <div class="projects">
-                <a href="https://skilled.dev" target="_blank" rel="noopener noreferrer">skilled.dev</a>
-                <a href="https://insiderfinance.io" target="_blank" rel="noopener noreferrer">insiderfinance.io</a>
-                <a href="https://bounce.game" target="_blank" rel="noopener noreferrer">bounce.game</a>
-                <a href="https://rfxfitness.com" target="_blank" rel="noopener noreferrer">rfxfitness.com</a>
-                <a href="https://gitconnected.com" target="_blank" rel="noopener noreferrer">gitconnected.com</a>
-                <a href="https://levelup.gitconnected.com" target="_blank" rel="noopener noreferrer">levelup.gitconnected.com</a>
-                <a href="https://sour.do" target="_blank" rel="noopener noreferrer">sour.do</a>
-                <a href="https://bloom.dm" target="_blank" rel="noopener noreferrer">bloom.dm</a>
-            </div>
+      <div class="section">
+        <div class="section-title">Projects</div>
+        <div class="projects">
+          <a
+            href="https://skilled.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            >skilled.dev</a
+          >
+          <a
+            href="https://insiderfinance.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            >insiderfinance.io</a
+          >
+          <a
+            href="https://bounce.game"
+            target="_blank"
+            rel="noopener noreferrer"
+            >bounce.game</a
+          >
+          <a
+            href="https://rfxfitness.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >rfxfitness.com</a
+          >
+          <a
+            href="https://gitconnected.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >gitconnected.com</a
+          >
+          <a
+            href="https://levelup.gitconnected.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >levelup.gitconnected.com</a
+          >
+          <a href="https://sour.do" target="_blank" rel="noopener noreferrer"
+            >sour.do</a
+          >
+          <a href="https://bloom.dm" target="_blank" rel="noopener noreferrer"
+            >bloom.dm</a
+          >
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
